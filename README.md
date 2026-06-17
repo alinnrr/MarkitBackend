@@ -1,4 +1,4 @@
-# LAPORAN FINAL PROJECT SISTEM BASIS DATA
+# SIMPLE REPORT FINAL PROJECT - SISTEM BASIS DATA
 
 ## Minimarket Teknologi Informasi (MarkIT)
 
@@ -17,9 +17,9 @@
 
 ---
 
-## BAB 1 — PENDAHULUAN
+## BAB 1 - PENDAHULUAN
 
-### 1.1 Latar Belakang Masalah
+### 1.1 Latar Belakang
 
 Departemen Teknologi Informasi ITS yang berlokasi di Lantai 7 Tower 2 ITS saat ini belum memiliki fasilitas minimarket di area departemen yang dapat memenuhi kebutuhan makanan ringan dan minuman bagi mahasiswa maupun dosen. Ketika mahasiswa memiliki jeda antar mata kuliah atau membutuhkan makanan dan minuman, mereka harus pergi ke kantin yang berada di area lain di lingkungan ITS. Jarak yang cukup jauh dari lantai 7 menuju kantin menyebabkan waktu istirahat menjadi kurang efektif dan dapat mengurangi waktu belajar maupun persiapan perkuliahan berikutnya.
 
@@ -49,7 +49,7 @@ Oleh karena itu, kelompok kami mengusulkan **MarkIT** (*Minimarket Teknologi Inf
 
 ---
 
-## BAB 2 — FUNGSIONALITAS SISTEM
+## BAB 2 - FUNGSIONALITAS SISTEM
 
 ### 2.1 Fitur Utama MarkIT
 
@@ -75,7 +75,7 @@ Oleh karena itu, kelompok kami mengusulkan **MarkIT** (*Minimarket Teknologi Inf
 
 ---
 
-## BAB 3 — DESAIN DATABASE
+## BAB 3 - DESAIN DATABASE
 
 ### 3.1 Identifikasi Entitas
 
@@ -193,14 +193,14 @@ Oleh karena itu, kelompok kami mengusulkan **MarkIT** (*Minimarket Teknologi Inf
 #### Collection `transaksi`
 ```json
 {
-  "invoice_id": "INV-0001",        // String, unique
-  "id_member": "MBR-0001",         // String (nullable, referensi ke MySQL)
-  "id_voucher": "VOC-0005",        // String (nullable, referensi ke MongoDB)
-  "id_admin": "ADM-002",           // String (referensi ke MySQL)
+  "invoice_id": "INV-0001",       
+  "id_member": "MBR-0001",   
+  "id_voucher": "VOC-0005",      
+  "id_admin": "ADM-002",    
   "tanggal_transaksi": ISODate(),
   "total_harga_before_voucher": 139500,
   "total_harga_after_voucher": 118575,
-  "daftar_barang": [               // EMBEDDED ARRAY
+  "daftar_barang": [            
     {
       "id_barang": "001-00001",
       "jumlah": 2,
@@ -327,18 +327,18 @@ END
 
 ---
 
-## BAB 5 — ARSITEKTUR BACKEND
+## BAB 5 - ARSITEKTUR BACKEND
 
 ### 5.1 Teknologi yang Digunakan
 
-| Komponen | Teknologi | Versi |
-|----------|-----------|-------|
-| Runtime | Node.js | — |
-| Framework | Express.js | 5.2.1 |
-| MySQL Driver | mysql2 | 3.22.5 |
-| MongoDB ODM | Mongoose | 9.7.0 |
-| Dev Tool | Nodemon | 3.1.14 |
-| API Testing | Postman | — |
+| Komponen | Teknologi |
+|----------|-----------|
+| Runtime | Node.js |
+| Framework | Express.js |
+| MySQL Driver | mysql2 |
+| MongoDB ODM | Mongoose |
+| Dev Tool | Nodemon |
+| API Testing | Postman |
 
 ### 5.2 Struktur Project
 
@@ -346,25 +346,25 @@ END
 markit-backend/
 ├── config/
 │   ├── models/
-│   │   ├── Transaksi.js      # Mongoose Schema - Transaksi
-│   │   ├── Ulasan.js          # Mongoose Schema - Ulasan
-│   │   └── Voucher.js         # Mongoose Schema - Voucher
-│   ├── mongodb.js             # Koneksi MongoDB
-│   └── mysql.js               # Koneksi MySQL
+│   │   ├── Transaksi.js      
+│   │   ├── Ulasan.js          
+│   │   └── Voucher.js         
+│   ├── mongodb.js           
+│   └── mysql.js    
 ├── routes/
-│   ├── barangDetailRoutes.js  # GET barang detail (JOIN query)
-│   ├── barangRoutes.js        # CRUD Barang (MySQL)
-│   ├── barangSupplierRoutes.js# GET Barang-Supplier (MySQL)
-│   ├── kategoriRoutes.js      # GET Kategori (MySQL)
-│   ├── memberRoutes.js        # GET Member (MySQL)
-│   ├── supplierRoutes.js      # GET Supplier (MySQL)
-│   ├── transaksiRoutes.js     # CRUD Transaksi (MongoDB + MySQL)
-│   ├── ulasanRoutes.js        # CRUD Ulasan (MongoDB)
-│   └── voucherRoutes.js       # CRUD Voucher (MongoDB)
-├── server.js                  # Entry point
+│   ├── barangDetailRoutes.js  
+│   ├── barangRoutes.js        
+│   ├── barangSupplierRoutes.js
+│   ├── kategoriRoutes.js  
+│   ├── memberRoutes.js  
+│   ├── supplierRoutes.js
+│   ├── transaksiRoutes.js
+│   ├── ulasanRoutes.js 
+│   └── voucherRoutes.js 
+├── server.js 
 ├── package.json
-├── testMongo.js               # Test koneksi MongoDB
-└── .env                       # Environment variables
+├── testMongo.js 
+└── .env 
 ```
 
 ### 5.3 API Endpoints
@@ -424,7 +424,7 @@ Fitur POST transaksi merupakan fitur paling kompleks karena menggabungkan **MySQ
 
 ---
 
-## BAB 6 — KESIMPULAN
+## BAB 6 - KESIMPULAN
 
 Proyek MarkIT berhasil mengimplementasikan sistem database hybrid yang menggabungkan kekuatan **MySQL** (untuk data terstruktur dengan relasi kuat) dan **MongoDB** (untuk data fleksibel dengan embedded documents). Sistem ini mencakup:
 
@@ -435,5 +435,3 @@ Proyek MarkIT berhasil mengimplementasikan sistem database hybrid yang menggabun
 5. **9 stored procedure** untuk business logic yang kompleks
 6. **5 view** untuk mempermudah query reporting
 7. **Backend Node.js** dengan 15+ API endpoint yang terintegrasi via Postman
-
-Arsitektur hybrid ini menunjukkan bahwa penggunaan relational dan non-relational database secara bersamaan dapat saling melengkapi untuk membangun sistem yang efisien dan fleksibel.
