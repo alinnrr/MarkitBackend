@@ -1,0 +1,11 @@
+ID_Supplier,ID_Admin,nama_supplier,alamat,telepon,email,Barang yang Dipasok
+SUP-001,ADM-002,PT Indo Beverage Nusantara,"Surabaya, Jawa Timur",81234567801,indo.beverage@markit.id,"Milo Kaleng 240ml, Coca Cola Kaleng 330ml, Sprite Kaleng 330ml, Fanta Strawberry Kaleng 330ml, Teh Pucuk Harum 350ml, Floridina Orange 350ml, Pocari Sweat Botol 500ml."
+SUP-002,ADM-001,PT Snack Sejahtera Abadi,"Sidoarjo, Jawa Timur",81234567802,snack.abadi@markit.id,"Chitato Sapi Panggang 68gr, Taro Net Seaweed 65gr, Lay's Rumput Laut 68gr, Qtela Balado 60gr, Pringles Original 107gr, Silverqueen Cashew 62gr, Kopiko Permen Kopi"
+SUP-003,ADM-002,PT Frozen Food Jaya,"Surabaya, Jawa Timur",81234567803,frozen.jaya@markit.id,"Wall's Magnum Classic, Campina Cornetto Cokelat, Paddle Pop Rainbow, Aice Mochi Vanilla, Campina Neapolitan 700ml"
+SUP-004,ADM-002,PT Roti Nusantara,"Gresik, Jawa Timur",81234567804,roti.nusantara@markit.id,"Sari Roti Roti Tawar Spesial, Roti Sisir Mentega"
+SUP-005,ADM-001,PT Stationery Plus,"Surabaya, Jawa Timur",81234567805,stationery@markit.id,"Buku Tulis SiDU 58 Lembar, Pulpen Kenko Standard Hitam, Pensil 2B Faber-Castell, Penghapus Joyko Hitam Kecil, Tipe-X Kenko Cair"
+SUP-006,ADM-001,PT Farma Keluarga,"Surabaya, Jawa Timur",81234567806,farma@markit.id,"Panadol Paracetamol 500mg, Tolak Angin Cair"
+SUP-007,ADM-001,PT Daily Care Indonesia,"Sidoarjo, Jawa Timur",81234567807,dailycare@markit.id,"Pasta Gigi Pepsodent 190gr, Sabun Mandi Cair Lifebuoy 450ml"
+SUP-008,ADM-001,PT Mi Instan Makmur,"Pasuruan, Jawa Timur",81234567808,mi.makmur@markit.id,"Pop Mie Ayam 75gr, Pop Mie Baso Spesial 75gr, Pop Mie Pedas Dower 75gr, Pop Mie Goreng Spesial 80gr, Sariwangi Teh Celup Isi 25, Indocafe Coffeemix Sachet."
+SUP-009,ADM-002,PT Dairy Fresh Indonesia,"Malang, Jawa Timur",81234567809,dairyfresh@markit.id,"Bear Brand 189ml, Ultra Milk Coklat 250ml, Indomilk Full Cream 250ml, Cimory Yogurt Squeeze Original, Yakult Isi 5"
+SUP-010,ADM-002,CV Multi Supplier Sentosa,"Surabaya, Jawa Timur",81234567810,multisupplier@markit.id,"Aqua 600ml, Le Minerale 600ml, Nasi Goreng Spesial Telur, Nasi Ayam Geprek Sambal Bawang."

@@ -1,0 +1,23 @@
+ID_Member,nama_member,tanggal_lahir,telepon,email,alamat,tanggal_daftar,total_poin,level_member
+MBR-0001,Evandra Raditya Fauzan,2004-01-15,81234560001,evandra@mail.com,Surabaya,2025-01-10,1200,Platinum
+MBR-0002,Ferlin Erdina Sari,2004-03-22,81234560002,ferlin@mail.com,Surabaya,2025-01-12,850,Gold
+MBR-0003,Chilmi Muhammad Ulin Nuha,2004-05-10,81234560003,nuha@mail.com,Sidoarjo,2025-01-15,620,Gold
+MBR-0004,Ni Putu Maqueenta Wijaya,2004-06-01,81234560004,queen@mail.com,Denpasar,2025-01-18,420,Silver
+MBR-0005,Umar,2003-09-12,81234560005,umar@mail.com,Gresik,2025-01-20,150,Bronze
+MBR-0006,Abhista Athallah Dyfan,2004-02-14,81234560006,khaidar@mail.com,Surabaya,2025-01-25,980,Gold
+MBR-0007,Arjunina Maqbulin Usman,2003-11-03,81234560007,bagas@mail.com,Malang,2025-02-01,310,Silver
+MBR-0008,Silfi Rochmatul Auliyah,2004-07-17,81234560008,fauzan@mail.com,Mojokerto,2025-02-03,1400,Platinum
+MBR-0009,Maulana Zaki Putra Zakaria,2004-08-21,81234560009,dinda@mail.com,Surabaya,2025-02-05,270,Silver
+MBR-0010,Revalinda Bunga Nayla Laksono,2003-04-11,81234560010,rizky@mail.com,Sidoarjo,2025-02-10,90,Bronze
+MBR-0011,Gede Satya Putra Aryanta,2004-10-19,81234560011,aisyah@mail.com,Lamongan,2025-02-12,560,Gold
+MBR-0012,Nadya Putri Agustin,2004-12-08,81234560012,fikri@mail.com,Surabaya,2025-02-15,180,Bronze
+MBR-0013,Ganestri Naurah Sawestri,2003-06-27,81234560013,nabila@mail.com,Malang,2025-02-18,730,Gold
+MBR-0014,Hasheemi Rafsanjani,2004-09-05,81234560014,farhan@mail.com,Gresik,2025-02-20,350,Silver
+MBR-0015,Annabel Clarissa,2004-11-25,81234560015,anisa@mail.com,Surabaya,2025-02-25,1100,Platinum
+,,,,,,,,
+Range Level_Member,,,Peraturan perolehan poin untuk member,,,,,
+Bronze ,0 - 199,,"Setiap transaksi sebesar Rp1.000 akan mendapatkan 10 poin
+Untuk perhitungan poin menggunakan trigger+function ",,,,,
+Silver,200 - 499,,,,,,,
+Gold,500 - 999,,,,,,,
+Platinum,≥ 1000,,,,,,,

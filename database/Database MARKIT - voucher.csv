@@ -1,0 +1,7 @@
+ID_Voucher,ID_Admin,kode_voucher,nama_voucher,jenis_voucher,nilai_diskon,minimal_belanja,tanggal_mulai,tanggal_berakhir,syarat_level,status_voucher
+VOC-0001,ADM-001,NEW50,Welcome Member,Diskon New Member,50%,0,2026-01-01,2026-12-31,Member Baru,Aktif
+VOC-0002,ADM-001,BRZ10,Bronze Rewards,Diskon Member Bronze,2%,25000,2026-01-01,2026-12-31,Bronze,Aktif
+VOC-0003,ADM-001,SLV15,Silver Rewards,Diskon Member Silver,5%,30000,2026-01-01,2026-12-31,Silver,Aktif
+VOC-0004,ADM-002,GLD25,Gold Rewards,Diskon Member Gold,10%,50000,2026-01-01,2026-12-31,Gold,Aktif
+VOC-0005,ADM-002,PLT50,Platinum Exclusive,Diskon Member Platinum,15%,100000,2026-01-01,2026-12-31,Platinum,Aktif
+VOC-0006,ADM-002,BDAY20,Birthday Special,Diskon Birthday Member,20%,0,2026-01-01,2026-12-31,Semua Member,Aktif
