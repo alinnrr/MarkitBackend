@@ -19,7 +19,7 @@
 
 ## BAB 1 — PENDAHULUAN
 
-### 1.1 Latar Belakang
+### 1.1 Latar Belakang Masalah
 
 Departemen Teknologi Informasi ITS yang berlokasi di Lantai 7 Tower 2 ITS saat ini belum memiliki fasilitas minimarket di area departemen yang dapat memenuhi kebutuhan makanan ringan dan minuman bagi mahasiswa maupun dosen. Ketika mahasiswa memiliki jeda antar mata kuliah atau membutuhkan makanan dan minuman, mereka harus pergi ke kantin yang berada di area lain di lingkungan ITS. Jarak yang cukup jauh dari lantai 7 menuju kantin menyebabkan waktu istirahat menjadi kurang efektif dan dapat mengurangi waktu belajar maupun persiapan perkuliahan berikutnya.
 
