@@ -10,10 +10,10 @@
 
 | No | Nama | NRP |
 |----|------|-----|
-| 1 | Ferlin Erdina Sari | 002 |
-| 2 | Silfi Rochmatul Auliyah | 008 |
-| 3 | Nazwa Aulia Dwi Putri | 018 |
-| 4 | Nayla Aisha Hanifa | 075 |
+| 1 | Ferlin Erdina Sari | 5027251002 |
+| 2 | Silfi Rochmatul Auliyah | 5027251008 |
+| 3 | Nazwa Aulia Dwi Putri | 5027251018 |
+| 4 | Nayla Aisha Hanifa | 5027251075 |
 
 ---
 
