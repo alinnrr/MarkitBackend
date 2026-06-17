@@ -107,6 +107,8 @@ Oleh karena itu, kelompok kami mengusulkan **MarkIT** (*Minimarket Teknologi Inf
 | Member ↔ Voucher | Many to Many | Melalui junction table `Voucher_Claim` |
 | Voucher → Transaksi | One to Many | Satu voucher bisa dipakai di banyak transaksi |
 
+![alt text](Assets/ERD.png)
+
 ### 3.3 Desain Tabel MySQL
 
 #### Tabel `admin`
