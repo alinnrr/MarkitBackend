@@ -407,23 +407,6 @@ markit-backend/
 | PUT | `/api/ulasan/:id` | Update ulasan |
 | DELETE | `/api/ulasan/:id` | Hapus ulasan |
 
-### 5.4 Alur Transaksi (Fitur Unggulan)
-
-Fitur POST transaksi merupakan fitur paling kompleks karena menggabungkan **MySQL dan MongoDB** dalam satu alur:
-
-```
-1. Validasi input (id_admin, metode_pembayaran, daftar_barang)
-2. Loop setiap barang → Cek stok di MySQL (SELECT dari tabel Barang)
-3. Hitung total harga sebelum voucher
-4. Jika ada voucher → Ambil data voucher dari MongoDB → Hitung diskon
-5. Generate invoice_id (INV-XXXX) dari data terakhir di MongoDB
-6. Simpan dokumen transaksi ke MongoDB (dengan embedded daftar_barang)
-7. Update stok barang di MySQL (UPDATE stok = stok - jumlah)
-8. Return response lengkap dengan detail transaksi
-```
-
-> **Anti Double-Click:** Sistem menggunakan `Map` untuk mencegah request ganda dalam waktu bersamaan.
-
 ---
 
 ## BAB 6 - KESIMPULAN
